@@ -910,6 +910,20 @@ h3 {
   font-weight: 800;
 }
 
+.experience-functions {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.75;
+  list-style: disc;
+}
+
+.experience-functions li::marker {
+  color: var(--violet);
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
